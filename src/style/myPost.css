@@ -1,0 +1,75 @@
+.container{
+    width: 750px;
+    min-height: 100px;
+    border: solid 2px rgb(248, 15, 93);
+    background-color: rgba(248, 15, 93, 0.3);
+    margin: 20px auto;
+    border-radius: 20px;
+    padding: 15px;
+}
+.avatar{ 
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: aqua;
+    margin-right: 15px;
+}
+.header{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.headerInfo, span{   
+    margin-right: 10px;
+}
+.name{
+    font-size:  27px;
+}
+.nickName, .data{
+    font-size: 20px;
+    color: rgba(175, 175, 175, 0.8);
+}
+.data{
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.mainText{
+    font-size: 35px;
+    margin-bottom: 5px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+.post{
+    border-radius: 10px;
+}
+.footer{
+    display: flex;
+    padding: 0 10px;
+    justify-content: space-evenly;
+    font-size: 20px;
+    text-align: center;
+}
+.icon{
+    align-items: center;
+    margin-right: 5px;
+    height: 25px;
+    width: 25px;
+}
+svg{
+    padding-top: 5px;
+    width: 25px;
+    height: 25px;
+}
+
+.footer div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer div:hover{
+    color: rgba(0, 0, 0, 0.443);
+}
